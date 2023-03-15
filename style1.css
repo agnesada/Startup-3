@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: DM Sans, sans-serif;
-    /* color: #fff; */
+
 }
 
 .navbar-brand{
@@ -60,15 +60,7 @@
     color: white;
 }
 
-/* .form-control, .primary-btn{
-    width: 470px;
-    height: 60px;
-    padding: 17px 307px 17px 24px;
-    border-radius: 100px;
-    color: #A1A1B0;
-    font-weight: 400;
 
-} */
 
 
 .myform,  .primary-btn {
@@ -80,7 +72,7 @@
     border-radius: 57px !important;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .myform {
         width: 100%;
     }
@@ -88,14 +80,15 @@
         width: 100%;
     }
     .head-item{
-        font-size: 30px;
+        font-size: 32px !important;
     }
     br{
-        line-break: none;
+        display: none;
     }
 }
 .head-item{
     color: #1E0E62;
+    font-size: 40px;
 }
 
 .primary-btn{
@@ -110,7 +103,7 @@
 }
 
 .form-section{
-    margin-top: 77px;
+    margin-top: 50px;
 }
 
 .mt-3, p{
@@ -118,21 +111,6 @@
     font-size: 14px;
 }
 
-/* .head-image{
-    width: 100%;
-} */
 
-/* .hero-p{
-    margin-top: 32px;
-} */
-
-/* video{
-    margin: 0 auto;
-    width: 100%;
-} */
-
-iframe{
-    width: 100%;
-}
 
 
