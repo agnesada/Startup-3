@@ -85,7 +85,15 @@
     br{
         display: none;
     }
+
+    .ml-5{
+        margin-left: 0 !important;
+        text-align: center;
+        margin-top: 10px !important;
+    }
 }
+
+
 .head-item{
     color: #1E0E62;
     font-size: 40px;
@@ -112,5 +120,7 @@
 }
 
 
-
+iframe{
+    width: 100%;
+}
 
